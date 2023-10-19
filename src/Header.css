@@ -1,0 +1,14 @@
+h2 {
+    text-align: center;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    color: white !important;
+}
+
+#header {
+    margin-top: 2vh;
+}
+
+.title {
+    display: flex;
+
+}

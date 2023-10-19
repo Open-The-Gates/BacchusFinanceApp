@@ -1,0 +1,24 @@
+.floating-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: -1;
+    background: linear-gradient(to right bottom, #54045c, #49045a, #3e0558, #330655, #260652);
+    filter: url(#blur) url(#pixelate);
+  }
+
+  
+  /* Define the filters */
+  @filter blur {
+    /* Adjust the amount of blur as needed */
+    blur: 10px;
+  }
+  
+  @filter pixelate {
+    /* Adjust the pixel size as needed */
+    pixelate: 10px;
+  }
+
