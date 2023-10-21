@@ -18,7 +18,6 @@ function App() {
       <Sidebar />
       <div className="main-content">
       <Header />
-      </div>
       <FloatingGradient />
       <Clouds />
       <Routes>
@@ -27,6 +26,7 @@ function App() {
       <Route path="dashboard" element={<div>Dashboard</div>} />
       <Route path="nfts" element={<div>NFTS</div>} />
       </Routes>
+    </div>
     </div>
     </BrowserRouter>
 

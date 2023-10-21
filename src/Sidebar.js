@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGauge, faCalculator, faImage } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => {
-    const [selected, setSelected] = useState('calculator');
+    const [selected, setSelected] = useState('');
     const handleItemClick = (item) => {
         setSelected(item);
     }
