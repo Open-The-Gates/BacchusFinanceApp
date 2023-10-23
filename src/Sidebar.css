@@ -1,5 +1,5 @@
 .sidebar {
-  width: 3%;
+  width: 3% !important;
   height: 100%;
   background-color: hsla(296, 70%, 4%, 0.8);
   position: fixed;
@@ -11,22 +11,22 @@
 }
 
 .sb-el {
-    cursor: pointer;
-    margin: 20px 0;
-    padding: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  padding: 10px;
 }
 
 .selected {
-    background-color: #817764;
+  background-color: #817764;
 }
 .sb-el:hover {
-    background-color: #494338;
+  background-color: #494338;
 }
 
 .sb-els {
-    margin-top: 35vh;
+  margin-top: 35vh;
 }
 .logo {
-    font-family: 'Yuji Hentaigana Akari', cursive;
-    font-size: xx-large;
+  font-family: "Yuji Hentaigana Akari", cursive;
+  font-size: xx-large;
 }

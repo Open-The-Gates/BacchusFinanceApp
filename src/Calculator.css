@@ -1,0 +1,25 @@
+.wrapper {
+  margin-top: 20vh !important;
+  background-color: #0c0418;
+  padding: 9vh;
+  opacity: 0.9;
+  border-radius: 10%;
+}
+
+input.input-calculator,
+textarea {
+  opacity: 1 !important;
+  background-color: #0c0418;
+  color: white;
+}
+
+.reward-wrapper {
+  background-color: greenyellow;
+  opacity: 0.8;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 2% 0;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.6;
+}
